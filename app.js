@@ -33,7 +33,7 @@ function fromYenToPound(yen) {
     let pounds = Math.floor(euros * oneEuroIs["GBP"]); // Convertir euros a libras
     return pounds;
 }
-console.log(fromDollarToYen(10)),
+console.log(fromDollarToYen(50)),
  console.log(fromEuroToDollar(5)),
  console.log(fromYenToPound(1000)),
 module.exports = { sum, fromDollarToYen, fromEuroToDollar, fromYenToPound, oneEuroIs };
